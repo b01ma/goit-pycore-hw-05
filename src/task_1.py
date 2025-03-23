@@ -43,10 +43,8 @@ def caching_fibonacci() -> callable:
     return fibonacci
 
 def main():
-    print(Fore.GREEN  + '=== TASK 1 ===' + Style.RESET_ALL)
     print('Fibonacci with caching')
-    print('')
-    
+
     fib = caching_fibonacci()
     
     print(Fore.CYAN + 'Fibonacci of 5: ',fib(5))
@@ -55,10 +53,6 @@ def main():
     print(Fore.CYAN + 'Fibonacci of -2: ',fib(-2))
     print(Fore.CYAN + 'Fibonacci of "a": ',fib('a'))
     print(Fore.CYAN + 'Fibonacci of 2000: ',fib(2000))
-    
-    print('')
-    print(Fore.RED + '=== END TASK 1 ===' + Style.RESET_ALL)
-    print('')
     
 if __name__ == '__main__':
     main()

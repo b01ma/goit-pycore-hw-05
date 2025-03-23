@@ -43,10 +43,7 @@ def sum_profit(text: str, callback: callable):
     print(Fore.CYAN + 'Total: ', total)
 
 def main():
-    
-    print(Fore.GREEN  + '=== TASK 2 ===' + Style.RESET_ALL)
     print('Sum of all numbers from the text')
-    print('')
     
     print(Fore.YELLOW + 'In the text: ' + Style.RESET_ALL, example_text)
     sum_profit(example_text, generator_numbers)
@@ -62,10 +59,6 @@ def main():
     
     print(Fore.YELLOW + 'In the text: "text without numbers"' + Style.RESET_ALL)
     sum_profit('text without numbers', generator_numbers)
-    
-    print('')
-    print(Fore.RED + '=== END TASK 2 ===' + Style.RESET_ALL)
-    print('')
     
 if __name__ == '__main__':
     main()

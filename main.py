@@ -5,9 +5,37 @@ import src.task_4 as task_4
 from colorama import Fore, Style
 
 def main():
+    print('')
+    print(Fore.GREEN + '=== TASK 1 ===' + Style.RESET_ALL)
+    print('')
+    
     task_1.main()
+    
+    print('')
+    print(Fore.RED + '=== END TASK 1 ===' + Style.RESET_ALL)
+    print('')
+    
+    print('')
+    print(Fore.GREEN + '=== TASK 2 ===' + Style.RESET_ALL)
+    print('')
+    
     task_2.main()
-    task_3.main()
+    
+    print('')
+    print(Fore.RED + '=== END TASK 2 ===' + Style.RESET_ALL)
+    print('')
+    
+    print('')
+    print(Fore.GREEN + '=== TASK 3 ===' + Style.RESET_ALL)
+    print('')
+    
+    print('To test task 3, please run the following command:')
+    print('python src/task_3.py src/logs/log.txt INFO')
+    
+    print('')
+    print(Fore.RED + '=== END TASK 3 ===' + Style.RESET_ALL)
+    print('')
+    
     
     print('')
     print(Fore.GREEN + '=== TASK 4 ===' + Style.RESET_ALL)
