@@ -128,9 +128,9 @@ def main():
         
         if level:
             if level not in level_count:
-                print(f"No logs found with level '{level}'")
+                print(f"No logs found with level " + Back.CYAN + f"{level}:")
             else:
-                print(f"Logs with level '{level}':")
+                print(f"Logs with level " + Back.GREEN + f"{level}:" + Style.RESET_ALL)
                 print('-' * 30)
                 for log in filter_logs_by_level(all_logs, level):
                     print(log)

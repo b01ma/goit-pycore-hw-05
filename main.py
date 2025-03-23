@@ -30,7 +30,7 @@ def main():
     print('')
     
     print('To test task 3, please run the following command:')
-    print('python src/task_3.py src/logs/log.txt INFO')
+    print('python src/task_3.py src/files/logs.txt debug')
     
     print('')
     print(Fore.RED + '=== END TASK 3 ===' + Style.RESET_ALL)
